@@ -29,6 +29,6 @@ const Billboard = () => {
             </div>
         </div>
     )
-}
+};
 
 export default Billboard;
