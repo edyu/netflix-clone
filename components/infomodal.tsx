@@ -41,7 +41,7 @@ const InfoModal: React.FC<InfoModalProps> = ({ visible, onClose }) => {
                     <div className="relative h-96">
                         <video className="w-full brightness-[60%] object-cover h-full" autoPlay muted loop poster={data?.thumbnailUrl} src={data?.videoUrl}></video>
                         <div className="cursor-pointer absolute top-3 right-3 h-10 w-10 rounded-full bg-black bg-opacity-70 flex items-center justify-center" onClick={handleClose}>
-                            <AiOutlineClose className="text-white size={20}" />
+                            <AiOutlineClose className="text-white w-6" />
                         </div>             
 
                         <div className="absolute bottom-[10%] left-10">
@@ -56,7 +56,7 @@ const InfoModal: React.FC<InfoModalProps> = ({ visible, onClose }) => {
                     </div>
                     <div className="px-12 py-8">
                         <p className="text-green-400 font-semibold text-lg">
-                            New <span className="text-white">2023</span>
+                            New
                         </p>
                         <p className="text-white text-lg">
                             {data?.duration}
